@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>GameHox Portfolio</title>
+  <style>
+    body { font-family: sans-serif; background: #111; color: #fff; margin: 0; padding: 0; }
+    header { background: #1f1f1f; padding: 20px; text-align: center; }
+    header h1 { margin: 0; font-size: 2.5rem; color: #00ffcc; }
+    .container { max-width: 900px; margin: auto; padding: 20px; }
+    .section { margin-bottom: 40px; }
+    .section h2 { border-bottom: 2px solid #00ffcc; padding-bottom: 10px; margin-bottom: 20px; color: #00ffcc; }
+    .games, .links { display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 20px; }
+    .card { background: #222; padding: 15px; border-radius: 10px; text-align: center; box-shadow: 0 0 10px #000; }
+    .card img { width: 100%; border-radius: 8px; }
+    .card a { color: #00ffcc; text-decoration: none; display: block; margin-top: 10px; }
+    footer { background: #1f1f1f; text-align: center; padding: 15px; font-size: 0.9rem; }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>GameHox</h1>
+  <p>Indie Game Developer</p>
+</header>
+
+<div class="container">
+  <section class="section">
+    <h2>About Me</h2>
+    <p>Welcome to my portfolio! I build lightweight and engaging mobile games for Android under the name <strong>GameHox</strong>.</p>
+  </section>
+
+  <section class="section">
+    <h2>My Games</h2>
+    <div class="games">
+      <div class="card">
+        <img src="https://play-lh.googleusercontent.com/AHy3c4lABtM21aQJY1S0c9XnBgYH9RaE7Zi8P5DHZcKtU2D6fzVJmXJGEsSuGZ9DYA=w512-h512-rw" alt="Geometry Ball: Rhythm Jump">
+        <a href="https://play.google.com/store/apps/details?id=com.geometry.ball" target="_blank">Geometry Ball: Rhythm Jump</a>
+      </div>
+      <div class="card">
+        <img src="https://play-lh.googleusercontent.com/jQrqFLvnGbCountpsnUQyEH6d9kvvU14j-M6L6h3mE_N5q2JUnhinK_mYK-_EpuboQ=w512-h512-rw" alt="Extreme Run 3d">
+        <a href="https://play.google.com/store/apps/details?id=com.extreme.run" target="_blank">Extreme Run 3d</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <h2>Developer Profile</h2>
+    <div class="links">
+      <div class="card">
+        <a href="https://play.google.com/store/apps/developer?id=GAMEHOX" target="_blank">GAMEHOX on Google Play</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <h2>Contact</h2>
+    <p>Email: <a href="mailto:gamehox1@gmail.com">gamehox1@gmail.com</a></p>
+  </section>
+</div>
+
+<footer>
+  &copy; 2025 GameHox. All rights reserved.
+</footer>
+
+</body>
+</html>
